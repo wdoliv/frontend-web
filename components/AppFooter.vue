@@ -65,8 +65,8 @@ const handleError = () => clearError({ redirect: '/' })
 
       <div class="py-6">
         <p class="text-xs text-white">
-          <span>{{ logo === LogoType.QAN ? 'QANscan' : 'LibreScan' }}</span>
-          <span> &copy;2023 - by <a href="https://qanplatform.com" target="_blank">QANplatform</a></span>
+          <span>{{ logo === LogoType.EAD ? 'EAD' : 'EAD Chain' }}</span>
+          <span> &copy;2025 - by <a href="https://eadchain.org" target="_blank">EAD Chain</a></span>
         </p>
       </div>
     </div>
