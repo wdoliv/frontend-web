@@ -32,7 +32,7 @@ if (config.app.tokenDecimals) {
 const isMainnet = useIsMainnet()
 const { data } = await useFetch<api_pb.BlockResponse.AsObject>('/api/block/number/0')
 if (data.value && data.value.block !== undefined) {
-  if (data.value.block.hash === '0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3') {
+  if (data.value.block.hash === '0xb00f92bfab3766a3c3265c395b49880a6346ec7e4b621da7413ad179e38e2050') {
     isMainnet.value = true
   }
 }
@@ -40,11 +40,11 @@ if (data.value && data.value.block !== undefined) {
 const title = ref<string>()
 const description = ref<string>()
 if (logo.value === LogoType.QAN) {
-  title.value = 'QANscan | QANplatform Blockchain Explorer'
-  description.value = 'QANscan is an analytics tool that helps people to search the QAN blockchain platform for transactions, addresses, and other activities.'
+  title.value = 'EAD | EAD Chain Blockchain Explorer'
+  description.value = 'EAD Chain is the first blockchain developed for the online education segment. It brings transparency, security, and global accessibility to educational content, transforming the future of learning through decentralized technology.'
 } else {
-  title.value = 'LibreScan | QANplatform Blockchain Explorer'
-  description.value = 'LibreScan is an analytics tool that helps people to search the QAN blockchain platform for transactions, addresses, and other activities.'
+  title.value = 'EAD | EAD Chain Blockchain Explorer'
+  description.value = 'EAD Chain is the first blockchain developed for the online education segment. It brings transparency, security, and global accessibility to educational content, transforming the future of learning through decentralized technology.'
 }  
 
 useSeoMeta({
@@ -63,7 +63,7 @@ useHead({
   <div>
     <NuxtLayout>
       <div class="min-h-screen relative">
-        <LoadingIndicator color="#00A6D4" />
+        <LoadingIndicator color="#8355eb" />
         <AppHeader />
         <NuxtPage />
         <AppFooter />
