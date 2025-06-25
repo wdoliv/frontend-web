@@ -25,7 +25,7 @@ if (txs.value) {
           <h1 class="text-white mb-2">{{ logo === LogoType.EAD ? 'EAD' : 'EAD Chain' }} Blockchain Explorer</h1>
           <Search />
           <div class="qan pt-10 max-lg:pt-5">
-            <a class="inline-flex items-center" href="https://eadchain.com" target="_blank">
+            <a class="inline-flex items-center" href="https://eadchain.org" target="_blank">
               <span class="text-white mr-2">by</span>
               <img class="h-6" src="@/assets/images/logo-ead.png" alt="EAD Chain" />
             </a>
