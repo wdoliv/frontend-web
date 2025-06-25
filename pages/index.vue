@@ -22,12 +22,12 @@ if (txs.value) {
     <section class="bg-qan-black-900 pt-12 pb-24">
       <div class="container">
         <div class="text-center">
-          <h1 class="text-white mb-2">{{ logo === LogoType.QAN ? 'QANscan' : 'LibreScan' }} Blockchain Explorer</h1>
+          <h1 class="text-white mb-2">{{ logo === LogoType.EAD ? 'EAD' : 'EAD Chain' }} Blockchain Explorer</h1>
           <Search />
           <div class="qan pt-10 max-lg:pt-5">
-            <a class="inline-flex items-center" href="https://librescan.org" target="_blank">
+            <a class="inline-flex items-center" href="https://eadchain.com" target="_blank">
               <span class="text-white mr-2">by</span>
-              <img class="h-6" src="@/assets/images/logo-qan-light.svg" alt="QAN" />
+              <img class="h-6" src="@/assets/images/logo-ead.png" alt="EAD Chain" />
             </a>
           </div>
         </div>
